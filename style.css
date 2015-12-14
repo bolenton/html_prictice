@@ -1,0 +1,15 @@
+
+body p {
+	color: red;
+}
+
+header {
+    display: block;
+    width: 348px;
+    overflow: hidden;
+    white-space: nowrap;
+	
+	position: relative;
+    display: inline-block;
+}
+
