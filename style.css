@@ -155,6 +155,7 @@ header h1 {
     margin-right: 1px;
     margin-top: 1px;
     border-radius: 10px;
+    padding-bottom: 21px;
 }
 
 .highlight:hover {
@@ -204,6 +205,14 @@ div .highlight:hover a{
     margin-top: 21px;
 }
 
+#third-p {
+    margin-top: 4px;
+}
+
+#third-h {
+    margin-top: 17px;
+}
+
 .add-border {
    padding-bottom: 1px;
    padding-top: 1px;
@@ -227,6 +236,8 @@ div .highlight:hover a{
 
 .child-div-two p {
     margin-top: 0px;
+    margin-bottom: 17px;
+    line-height: 1.5;
 }
 
 .bottom-menu {
