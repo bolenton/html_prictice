@@ -98,18 +98,46 @@ header h1 {
     background-color: #C74451;
 }
 
+
 .feature-article {
-   
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
     list-style-type: none;
-    margin-top: 30px;
+    margin-top: 32px;
     margin-bottom: 30px;
+    margin-left: 2px;
+    margin-right: 1px;
     overflow: hidden;
     background-color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
     padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
+    padding-right: 48px;
+    border-radius: 10px;
+    height: 166px;
+    
+}
+
+#featured-heading {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 19px;
+}
+
+
+
+#sub-heading2{
+    color: black;
+    padding-top: 6px;
+    font-size: 20px; 
+    font-weight: lighter;
+    display: block;  
+}
+
+.parent-div p {
+    line-height: 1.45;
+    margin-top: 1px;
+  
     
 }
 
@@ -118,7 +146,8 @@ header h1 {
     overflow: hidden;
     background-color: #ffffff;
     padding: 20px;
-    border-color: black;   
+    border-color: #EEEEEE;   
+    line-height: 1.5;
     
      border-radius: 8px;
 }
@@ -141,7 +170,7 @@ div .highlight:hover a{
 } 
 
 .parent-div{
-    width:400px;
+    width:385px;
     height:180px;
     
     float:left;
@@ -149,9 +178,11 @@ div .highlight:hover a{
 
 .child-div{
     float: right;
-    margin-top: inherit;
+    margin-top: 31px;
     border-style:solid;
     border-color: #F5F4F0;
+    border-width: 2px;
+    
 }
 
 .parent-div-two{
@@ -189,10 +220,13 @@ div .highlight:hover a{
 
 #list-left li {   
    padding-bottom: 1px;
-   padding-top: 5px;
+   padding-top: 1px;
    border-bottom-style: inset;
+   border-top-style: solid;
    border-bottom-width: 1px;   
-   border-color: #F4E3E3
+   border-top-width: 1px;
+   border-top-color: #ffffff;
+   border-bottom-color:  #F4E3E3;
 }
 
 #list-left li:nth-child(6n+0) {
@@ -216,11 +250,14 @@ div .highlight:hover a{
 }
 
 #list-right li {
-    padding-bottom: 5px;
-   padding-top: 5px;
-   border-bottom-style: inset;  
-   border-bottom-width: 1px;  
-   border-color: #F4E3E3
+   padding-bottom: 1px;
+   padding-top: 1px;
+   border-bottom-style: inset;
+   border-top-style: solid;
+   border-bottom-width: 1px;   
+   border-top-width: 1px;
+   border-top-color: #ffffff;
+   border-bottom-color:  #F4E3E3;
     
 }
 
