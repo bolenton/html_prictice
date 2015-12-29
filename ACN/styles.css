@@ -1,0 +1,148 @@
+body {
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: 50%;
+    color: dimgrey;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    width: auto;
+    background-color: lightgrey;
+}
+
+#country-label {
+    width: 72px;
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 1px;
+    border-color: lightgrey;
+    vertical-align: middle;
+    left: 24%;
+    position:fixed;
+}
+
+#language-label {
+    width: 72px;
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 1px;
+    border-color: lightgrey;
+    vertical-align: middle;       
+    left: 28%;
+    position:fixed;
+}
+
+#language-img {
+    display: inline-block;
+    height: 30px;
+    width: 50px;
+}
+
+#language-img img {
+    padding-top: 4px;
+    height: 23px;
+    width: 35px;
+    left: 22%;
+    position:fixed;
+}
+
+#account-label {
+    width: 120px;
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 1px;
+    border-color: lightgrey;
+    vertical-align: middle;       
+    left: 65%;
+    position:fixed;
+}
+
+#cart-img {
+    display: inline-block;
+    height: 30px;
+    width: 50px;
+    position:fixed;
+    left: 72%;
+}
+
+#cart-img img { 
+	border:1px solid #d3d3d3;
+	vertical-align:bottom;
+}
+
+#cart-img:focus {
+	border:0; 
+	z-index:1;
+}
+
+#cart-img span { 
+	position:absolute;
+	visibility:hidden;
+}
+
+#cart-img:focus span { 
+	visibility:visible;
+	top:37px; left:37px; 
+}
+
+#welcome-msg {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+#main-menu {
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #E9E9E9;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-bottom-color: #7C7C7C;
+    height: 75px;
+    width: auto;
+    background-color: #C3C5C8;
+}
+
+#main-menu img{
+    padding-top: 23px;
+    position: fixed;
+    left: 22%;
+}
+
+.top-menu {
+    position: relative;
+    
+}
+
+.top-menu ul {    
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+    height: 75px;
+    position: absolute;
+    
+    
+    left: 30%;
+    
+    
+}
+
+.top-menu li {
+    height: 75px;
+    display: inline;
+    
+     
+}
+
+.top-menu li a
+{
+    text-decoration: none;
+    padding: 2px 2px;
+}
+
+
+
+
+
